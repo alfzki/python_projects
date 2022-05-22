@@ -5,7 +5,19 @@ import random
 import sys
 
 
-def guess_the_number(x):
+def guess_the_number():
+    print("1.Easy\n2.Medium\n3.Impossible")
+    difficulty = int(input("Select difficulty: "))
+    if difficulty == 1:
+        x = 10
+    elif difficulty == 2:
+        x = 100
+    elif difficulty == 3:
+        x = sys.maxsize
+    else:
+        print("Invalid number, defaulting to medium")
+        x = 100
+
     number = random.randint(1, x)
     guess = 0
     while guess != number:
@@ -22,18 +34,4 @@ def guess_the_number(x):
     print("You are correct!")
 
 
-def select_difficulty():
-    print("1.Easy\n2.Medium\n3.Impossible")
-    difficulty = int(input("Select difficulty: "))
-    if difficulty == 1:
-        return 10
-    elif difficulty == 2:
-        return 100
-    elif difficulty == 3:
-        return sys.maxsize
-    else:
-        print("Invalid number, defaulting to medium")
-        return 100
-
-
-guess_the_number(select_difficulty())
+guess_the_number()
