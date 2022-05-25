@@ -8,3 +8,4 @@ Compilation of python projects from YouTube, with some modification
 - [How to create a banking system using Object Oriented Programming in python for beginners](https://youtu.be/xTh-ln2XhgU)
 - [Calculate Pi with Python](https://www.geeksforgeeks.org/calculate-pi-with-python)
 - [Backtracking Explained - Solving N-Queens and Knight's Tour using Python](https://youtu.be/CQ3nDMcchdA)
+- [Python Sudoku Solver Tutorial](https://youtube.com/playlist?list=PLzMcBGfZo4-kE3aF6Y0wNBNih7hWRAU2o)
